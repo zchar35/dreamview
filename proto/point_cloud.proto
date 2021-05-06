@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+package jmc_auto.dreamview;
+
+message PointCloud {
+  repeated float num = 1;
+}

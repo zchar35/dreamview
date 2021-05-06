@@ -1,0 +1,154 @@
+lane {
+  id {
+    id: "1"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 388911.96989
+          y: 3155588.38671
+        }
+        point {
+          x: 388912.076151
+          y: 3155588.03873
+        }
+        point {
+          x: 388912.018489
+          y: 3155587.04547
+        }
+        point {
+          x: 388911.980212
+          y: 3155586.05603
+        }
+      }
+      length: 100
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 388910.656323
+            y: 3155589.38523
+          }
+          point {
+            x: 388913.725811
+            y: 3155588.00526
+          }
+          point {
+            x: 388913.624844
+            y: 3155586.18903
+          }
+        }
+      }
+    }
+    length: 100
+    boundary_type {
+      s: 0
+      types: DOTTED_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 388913.283457
+            y: 3155587.38819
+          }
+          point {
+            x: 388910.426491
+            y: 3155588.07221
+          }
+          point {
+            x: 388910.374703
+            y: 3155587.18854
+          }
+          point {
+            x: 388910.335581
+            y: 3155585.92304
+          }
+        }
+      }
+    }
+    length: 100
+    boundary_type {
+      s: 0
+      types: DOTTED_YELLOW
+    }
+  }
+  length: 100
+  speed_limit: 20
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+road {
+  id {
+    id: "1"
+  }
+  section {
+    id {
+      id: "2"
+    }
+    lane_id {
+      id: "1"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 388910.656323
+                  y: 3155589.38523
+                }
+                point {
+                  x: 388913.725811
+                  y: 3155588.00526
+                }
+                point {
+                  x: 388913.662274
+                  y: 3155586.9024
+                }
+                point {
+                  x: 388913.624844
+                  y: 3155586.18903
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 388913.283457
+                  y: 3155587.38819
+                }
+                point {
+                  x: 388910.426491
+                  y: 3155588.07221
+                }
+                point {
+                  x: 388910.374703
+                  y: 3155587.18854
+                }
+                point {
+                  x: 388910.335581
+                  y: 3155585.92304
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}

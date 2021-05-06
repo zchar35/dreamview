@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package jmc_auto.dreamview;
+
+import "modules/monitor/proto/system_status.proto";
+
+message HMIStatus {
+  optional jmc_auto.monitor.SystemStatus system_status = 1;
+  optional string current_map = 2;
+  optional string current_vehicle = 3;
+  optional string current_mode = 4 [default = "Standard"];
+}
